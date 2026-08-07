@@ -1,0 +1,19 @@
+# Normalize all text files to LF in the repository.
+# Git will store LF and check files out with LF on every platform,
+# regardless of core.autocrlf.
+* text=auto eol=lf
+
+# Binary files must not be treated as text.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+*.pdf binary
+*.zip binary
+*.node binary
