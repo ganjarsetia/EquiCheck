@@ -84,7 +84,7 @@ equicheck/
 
 - Node.js ≥ 18 (tested on v24)
 - npm ≥ 10
-- An OpenCode Zen API key (https://opencode.ai/auth) — free models are fine.
+- An OpenCode Zen API key (https://opencode.ai/auth) — free models are fine. You can use my API key, just download it [here](https://drive.google.com/file/d/1TJ60lAXGVXEdTo5f7Kiiua_xfghV9DhO/view?usp=drive_link) & click get request access
 
 ### 1. Install & configure
 
@@ -97,6 +97,7 @@ npx playwright install chromium
 ```
 
 Copy `.env.example` to `.env` at the repo root and set your key:
+Or you can use my `.env`, just download it [here](https://drive.google.com/file/d/1TJ60lAXGVXEdTo5f7Kiiua_xfghV9DhO/view?usp=drive_link) & click get request access
 
 ```
 OPENCODE_ZEN_API=sk-...
